@@ -14,7 +14,7 @@ Installation
 <script src="https://cdn.jsdelivr.net/npm/htss@1.0.1/htss-min.js"></script>
 ```
 
-for direct use in HTML
+Example:
 ```html
 <script src="https://cdn.jsdelivr.net/npm/htss@1.0.1/htss-min.js"></script>
 
