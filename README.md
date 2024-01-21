@@ -1,6 +1,7 @@
 # HTSS
 ![NPM Version](https://img.shields.io/npm/v/htss?style=flat)
 ![NPM Downloads](https://img.shields.io/npm/dt/htss?style=flat)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/hasan-bro-coder/htss?style=flat&color=880000)
 
 
 htss is a way to write html like CSS
@@ -98,4 +99,4 @@ The project is licensed under the ISC license.
 Author
 -------
 
-HSN-BRO-CODER
+**HSN-BRO-CODER**
