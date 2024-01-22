@@ -1,10 +1,12 @@
 # HTSS
 ![NPM Version](https://img.shields.io/npm/v/htss?style=flat)
 ![NPM Downloads](https://img.shields.io/npm/dt/htss?style=flat)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/t/hasan-bro-coder/htss?style=flat&color=880000)
+![Static Badge](https://img.shields.io/badge/size-3.67kb-red)
+
 
 
 htss is a way to write html like CSS
+
 made for css lover *(No one)*
 
 Installation
@@ -21,17 +23,8 @@ Example:
 <script>
 new HTSS("#element",`
      div{
-       innerText: "yo"
-       attr-style: "color: red"
-       attr-class: "main"
-       nav{
-           innerText: "yo"
-       }
-     }
-     input{
-       innerText: "yo"
-       className: "main"
-       value: "niger"
+       innerText: "welcome to htss";
+       attr-style: "font-family: monospace;";
      }
 `)
 </script>
@@ -46,34 +39,31 @@ import { HTSS } from "htss"
 
 new HTSS("#element",`
      div{
-       innerText: "from js using ESMODULE"
-       attr-style: "font-family: monospace;"
+       innerText: "from js using ESMODULE";
+       attr-style: "font-family: monospace;";
      }
 `)
 ```
 Features
 --------
 
+- only **3.67 KB**
+- dynamic data
 - fast and simple
-- only 3.5 kb
 - packed with many features
+- will make you hate css more
 
 easy it is to use:
 -------
 ```js
 new HTSS(`
-     div{
-       innerText: "yo"
-       attr-style: "color: red"
-       attr-class: "main"
-       nav{
-           innerText: "yo"
-       }
-     }
-     input{
-       innerText: "yo"
-       className: "main"
-       value: "niger"
+     form{
+        input{
+          value: "placeholder";
+        }
+        button{
+          innerText: "submit";
+        }
      }
 `,document.body)
 ```
@@ -81,7 +71,13 @@ new HTSS(`
 
 More About HTSS
 ----------
-
+unlike css **semicolons are optional**
+```css
+div{
+     innerText: "CSS is better than HTSS"; /* with semicolon */
+     innerText: "HTSS is better than CSS" /* without semicolon */
+}
+```
 
 
 Support
