@@ -78,7 +78,40 @@ div{
      innerText: "HTSS is better than CSS" /* without semicolon */
 }
 ```
+what is attr ??
+```css
+div{
+     innerText: "js element proparty"; /* div.innerText = "%value%" */
+     attr-class: "HTML atrribute" /* <div class="%value%"></div> */
+}
+```
+child elements
+```css
+div{
+  h1{
+       innerText: "im a child ";
+       span{
+            innerText: "element"
+            style: "color:red"
+       }
+  }
+}
+```
+Cool tricks:
+-------
+because you have to use htss from js you have many cool trick to do
 
+dynamic data:
+```js
+let htss = ""
+for(let i=0;i < 10;i++){
+  htss += `div{
+    innerText: "${i}.dynamic data"; 
+    style: "color: #${i}${i}${i}000;"
+}`
+}
+new HTSS(htss,document.body)
+```
 
 Support
 -------
