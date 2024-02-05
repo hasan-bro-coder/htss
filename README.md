@@ -1,7 +1,7 @@
 # HTSS
 ![NPM Version](https://img.shields.io/npm/v/htss?style=flat)
 ![NPM Downloads](https://img.shields.io/npm/dt/htss?style=flat)
-![Static Badge](https://img.shields.io/badge/size-3.27kb-red)
+![Static Badge](https://img.shields.io/badge/size-3.52kb-red)
 
 
 
@@ -47,11 +47,11 @@ new HTSS("#element",`
 Features
 --------
 
-- only **3.67 KB**
-- dynamic data
+- only **3.52 KB**
 - fast and simple
 - packed with many features
 - will make you hate css more
+- uses js dom api instead of raw html
 - will make you star this repo **(DO IT)**
 
 easy it is to use:
@@ -113,7 +113,10 @@ for(let i=0;i < 10;i++){
 }
 new HTSS(htss,document.body)
 ```
-
+Limitations
+-------
+- dont have all the Features of CSS (calc, css variables, media queries)
+  
 Support
 -------
 
