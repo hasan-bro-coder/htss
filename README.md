@@ -1,7 +1,7 @@
 # HTSS
 ![NPM Version](https://img.shields.io/npm/v/htss?style=flat)
 ![NPM Downloads](https://img.shields.io/npm/dt/htss?style=flat)
-![Static Badge](https://img.shields.io/badge/size-3.67kb-red)
+![Static Badge](https://img.shields.io/badge/size-3.27kb-red)
 
 
 
@@ -52,6 +52,7 @@ Features
 - fast and simple
 - packed with many features
 - will make you hate css more
+- will make you star this repo **(DO IT)**
 
 easy it is to use:
 -------
@@ -117,6 +118,7 @@ Support
 -------
 
 If you are having issues, please let us know.
+
 discord: https://discord.gg/mnBc7hnf
 
 
