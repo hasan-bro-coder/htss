@@ -7,7 +7,7 @@
 
 htss is a way to write html like CSS
 
-made for css lover *(No one)*
+made for css lovers *(No one)*
 
 Installation
 ------------
