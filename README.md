@@ -13,7 +13,7 @@ Installation
 ------------
 ### CDN:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/htss@1.0.1/htss-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/htss@1.0.3/htss-min.js"></script>
 ```
 
 Example:
